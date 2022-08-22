@@ -39,11 +39,15 @@ VERSION="1.0.0"
 ###################################### VARIABLES ##################################################
 ###################################################################################################
 
+# APPLICATION: the path to the installed application
 APPLICATION="/Applications/ProPresenter.app"
-INFO_PLIST_RELATIVE_PATH="Contents/Info.plist"
-TARGET_VERSION="7.9.2"
 
+# INFO_PLIST: the path to the application's Info.plist file.
+INFO_PLIST_RELATIVE_PATH="Contents/Info.plist"
 INFO_PLIST="$APPLICATION/$INFO_PLIST_RELATIVE_PATH"
+
+# TARGET_VERSION: the minimum version string that is allowed.
+TARGET_VERSION="7.9.2"
 
 ###################################################################################################
 ###################################### FUNCTIONS ##################################################
