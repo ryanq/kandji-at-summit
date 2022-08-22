@@ -1,3 +1,18 @@
+--
+-- Script the UI to turn off ProPresenter update notices.
+--
+-- Tested on:
+--  - macOS 12.3.1
+--  - macOS 12.5
+--
+--  - ProPresenter 7.9.2
+--  - ProPresenter 7.10.1
+--
+-- Changelog
+--
+--  1.0.0 - Initial version.
+--
+
 tell application "ProPresenter" to activate
 
 tell application "System Events"
