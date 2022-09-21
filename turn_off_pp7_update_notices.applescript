@@ -21,7 +21,7 @@ tell application "System Events"
 		-- Open the Updates preference pane
 		tell menu bar 1
 			tell menu of menu bar item "ProPresenter"
-				tell menu of menu item "Preferences‚Ä¶"
+				tell menu of menu item "Preferences…"
 					click menu item "Updates"
 				end tell
 			end tell
